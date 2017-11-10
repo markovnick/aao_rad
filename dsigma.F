@@ -95,7 +95,7 @@ c     *   sig0,sigu,sigl,sigt,sigi,sigip,asym_p,ehel)
 c         print *, 'DSIGMA: ',sig0,sigu,sigl,sigt,sigi,sigip,asym_p,ehel 
 c        print *, '**************************************************'
         fkt  = 2*W_dummy*ppi_mag_cm/(W2_dummy - amp2)
-        sig0 = fkt*sig0
+        sig0 = fkt*sig0*1.5
       else
          call maid_lee(q2,w,eps,cscm,phicm,opt1,opt2,opt3,
      1        sig0,sigu,sigt,sigl,sigi,sigip,asym_p,ehel)

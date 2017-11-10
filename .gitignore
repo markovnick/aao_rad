@@ -3,6 +3,7 @@ build
 depends
 *.root
 *.hbook
+*.hboop
 *.rz
 *.out
 *.lund
